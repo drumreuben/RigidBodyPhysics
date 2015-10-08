@@ -79,7 +79,7 @@ public class World implements DrawAble {
                 moveBodies(elapsedTime * .0001);
                 System.out.println("calling paint component");
                 this.worldPainter.repaint();
-                System.out.println("repaint?");
+                System.out.println("called repaint");
                 simulationEnd = System.currentTimeMillis();
             }
         }
